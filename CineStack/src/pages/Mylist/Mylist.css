@@ -1,0 +1,43 @@
+.mylist {
+    padding: 20px;
+  }
+  
+  .mylist-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .mylist-item {
+    text-align: center;
+    position: relative;
+  }
+  
+  .mylist-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .movie-details {
+    margin-top: 10px;
+  }
+  
+  .movie-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #f40612;
+  }
+  

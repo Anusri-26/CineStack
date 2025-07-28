@@ -1,0 +1,32 @@
+/* src/components/Watchlist/Watchlist.css */
+.watchlist-container {
+    padding: 20px;
+    color: white;
+  }
+  
+  .watchlist-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .watchlist-input input {
+    padding: 8px;
+    width: 250px;
+  }
+  
+  .watchlist-input button {
+    padding: 8px 16px;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+  }
+  
